@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do **Remake do Jogo Donkey Kong de Atari**! 
 Este é um projeto desenvolvido como parte do 1º trabalho prático da disciplina Linguagem e Técnicas de Programação 1 no curso técnico de informática do CEFET-MG. 
-O jogo foi desenvolvido utilizando C++ e a biblioteca de recursos multimídia SFML. 
+O jogo foi desenvolvido utilizando **C++** e a biblioteca de recursos multimídia **SFML**. 
 
 ## ✔ Requisitos
 
