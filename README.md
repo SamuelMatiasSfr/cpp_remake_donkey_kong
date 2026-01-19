@@ -6,13 +6,13 @@ O jogo foi desenvolvido utilizando C++ e a biblioteca de recursos multimídia SF
 
 ## ✔ Requisitos
 
-- SFML: Certifique-se de ter a biblioteca SFML (2.5.1 ou superior) instalada e configurada em seu ambiente de desenvolvimento.
-- C Compiler: Um compilador compatível com C++11 ou superior.
-- Eclipse IDE (ou outra IDE de sua preferência).
+- SFML: Certifique-se de ter a biblioteca SFML (2.5.1 ou superior) instalada e configurada em seu ambiente de desenvolvimento
+- C Compiler: Um compilador compatível com C++11 ou superior
+- Eclipse IDE (ou outra IDE de sua preferência)
 
 ## ⚙️ Configuração
 
-Para rodar este projeto, será necessário clonar ou baixar o repositório e configurá-lo em um ambiente com SFML. 
+Para rodar este projeto, será necessário clonar ou baixar o repositório e configurá-lo em um ambiente com SFML
 
 Siga as etapas abaixo:
 
@@ -21,36 +21,36 @@ Siga as etapas abaixo:
 Baixe e extraia o arquivo zip, copie os arquivos para seu projeto
 
 2. Instale a SFML
-   - Baixe a biblioteca SFML pelo site oficial: (https://www.sfml-dev.org/download.php);
-   - Siga as instruções de instalação de acordo com seu sistema operacional.
+   - Baixe a biblioteca SFML pelo site oficial: (https://www.sfml-dev.org/download.php)
+   - Siga as instruções de instalação de acordo com seu sistema operacional
 
 3. Configuração do Projeto
-   - Abra o Eclipse ou sua IDE preferida e importe o projeto.
+   - Abra o Eclipse ou sua IDE preferida e importe o projeto
    - Inclua os diretórios da SFML nas configurações de construção do projeto:
 
-     - Adicione o caminho `SFML/include`;
-     - Adicione o caminho `SFML/lib`;
-     - Inclua as bibliotecas `sfml-graphics`, `sfml-window`, `sfml-system`, `sfml-audio` (se necessário);
-     - Não se esqueça de configurar as variaveis de ambiente se necessario   `SFML/bin;`.
+     - Adicione o caminho `SFML/include`
+     - Adicione o caminho `SFML/lib`
+     - Inclua as bibliotecas `sfml-graphics`, `sfml-window`, `sfml-system`, `sfml-audio` (se necessário)
+     - Não se esqueça de configurar as variaveis de ambiente se necessario   `SFML/bin;`
       
 4. Execute o Jogo
 
 ## 🕹️Como Jogar?🕹️
 
 ### 🎯 Objetivo
-Resgate a princesa Pauline! Antes disso, colete todas as moedas disponíveis no local.
+Resgate a princesa Pauline! Antes disso, colete todas as moedas disponíveis no local
 
 ### 🎮 Controles
-- **⬆️ Cima**: Subir escadas.
-- **⬇️ Baixo**: Descer escadas.
-- **⬅️ Esquerda**: Mover-se para a esquerda.
-- **➡️ Direita**: Mover-se para a direita.
-- **⏺ Espaço**: Pular.
+- **⬆️ Cima**: Subir escadas
+- **⬇️ Baixo**: Descer escadas
+- **⬅️ Esquerda**: Mover-se para a esquerda
+- **➡️ Direita**: Mover-se para a direita
+- **⏺ Espaço**: Pular
 
 ### 🛠️ Martelo
-- Ao pegar o martelo, você tem **8 segundos** para utilizá-lo.
-- **Pressione `X`** para usá-lo.
-- Usar o martelo redireciona o barril para outra posição, mas ele permanece visível na tela.
+- Ao pegar o martelo, você tem **8 segundos** para utilizá-lo
+- **Pressione `X`** para usá-lo
+- Usar o martelo redireciona o barril para outra posição, mas ele permanece visível na tela
 
 ### 💡 Dicas
-- É possível **pular sobre os barris** para evitar colisões.
+- É possível **pular sobre os barris** para evitar colisões
