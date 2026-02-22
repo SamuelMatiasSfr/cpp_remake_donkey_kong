@@ -4,7 +4,7 @@ Jogo desenvolvido em C++ inspirado no jogo Donkey Kong de Atari, com o objetivo 
 
 ---
 
-## Funcionalidades:
+## Funcionalidades
 - Movimentação do personagem em plataformas
 - Sistema de pulo e de subir escadas
 - Sistema de ataques com martelo e escudo de proteção
@@ -12,7 +12,7 @@ Jogo desenvolvido em C++ inspirado no jogo Donkey Kong de Atari, com o objetivo 
 - Sistema de colisão
 - Sistema de vitória e game over
 
-## Tecnologias usadas:
+## Tecnologias usadas
 - C++
 - SFML
 - Eclipse IDE
