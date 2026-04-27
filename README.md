@@ -1,51 +1,76 @@
 # Remake do Donkey Kong de Atari 
 
-Jogo desenvolvido em C++ inspirado no jogo Donkey Kong de Atari, com o objetivo de reproduzir suas principais mecânicas de jogabilidade. Este projeto foi desenvolvido como trabalho prático da disciplina Linguagem e Técnicas de Programação 1 no curso técnico de informática do CEFET-MG, utilizando a biblioteca SFML para recursos gráficos e multimídia.
+Jogo desenvolvido em C++, inspirado no clássico Donkey Kong do Atari, com foco na recriação de suas principais mecânicas de jogabilidade.
+
+O projeto foi desenvolvido como trabalho prático da disciplina Linguagem e Técnicas de Programação I, no curso técnico em informática do CEFET-MG, utilizando a biblioteca SFML para gerenciamento de recursos gráficos e multimídia.
+
+## Status do Projeto
+
+Projeto estável e pronto para uso.
+
+Este projeto foi desenvolvido para fins acadêmicos e não está mais em manutenção. O projeto é mantido aqui como demonstração de conceito e aprendizado.
 
 ---
 
+## Objetivos
+- Praticar lógica de programação
+- Aprender conceitos de Programação Orientada a Objetos (POO) em C++
+- Aplicar conceitos de POO no desenvolvimento de jogos
+- Recriar as principais mecânicas, regras e elementos visuais do jogo original
+- Adquirir experiência no desenvolvimento de jogos utilizando a biblioteca SFML
+
 ## Funcionalidades
 - Movimentação do personagem em plataformas
-- Sistema de pulo e de subir escadas
-- Sistema de ataques com martelo e escudo de proteção
-- Inimigos e chefão por fase
-- Sistema de colisão
-- Sistema de vitória e game over
+- Sistema de pulo e movimentação em escadas
+- Sistema de ataque com martelo e escudo de proteção
+- Sistema de controle de vidas
+- Progressão entre fases
+- Presença de inimigos e chefão por fase
+- Sistema de detecção de colisões
+- Sistema de condições de vitória e game over
 
-## Tecnologias usadas
+## Tecnologias Usadas
 - C++
 - SFML
 - Eclipse IDE
 
 ---
 
-## Requisitos
-- **SFML**: Certifique-se de ter a biblioteca SFML (2.5.1 ou superior) instalada e configurada em seu ambiente de desenvolvimento
-- **Compilador C**: Um compilador compatível com C++11 ou superior
+## Como Executar
 
-## Como executar
+### Requisitos
+- Compilador C++  
+- SFML
 
-1. Baixe e extraia o arquivo zip do projeto
+## Execução
+
+1. Baixe e extraia o arquivo `.zip` do projeto
+   
 2. Instale a SFML
-   - Baixe a biblioteca SFML pelo site oficial: (https://www.sfml-dev.org/download.php)
-   - Siga as instruções de instalação de acordo com seu sistema operacional
+   - Acesse o site oficial: `https://www.sfml-dev.org/download.php`
+   - Baixe a versão compatível com seu compilador
+   - Siga as instruções de instalação para o seu sistema operacional
 
 3. Configuração do Projeto
-   - Abra sua IDE preferida e importe o projeto
-   - Inclua os diretórios da SFML nas configurações de construção do projeto:
-     - Adicione o caminho `SFML/include`
-     - Adicione o caminho `SFML/lib`
-     - Inclua as bibliotecas `sfml-graphics`, `sfml-window`, `sfml-system`, `sfml-audio`
-     - Adicionar `SFML/bin;` as variaveis de ambiente da IDE
+   - Importe o projeto na IDE de sua preferência
+   - Adicione os diretórios da SFML nas configurações do projeto:
+     - `SFML/include`
+     - `SFML/lib`
+   - Vincule as bibliotecas:
+     - `sfml-graphics`
+     - `sfml-window`
+     - `sfml-system`
+     - `sfml-audio`
+   - Adicione o diretório `SFML/bin` às variáveis de ambiente
       
-4. Execute o Jogo
+5. Compile e execute o arquivo `main.cpp`
 
 ---
 
 ## Como Jogar
 
 ### Objetivo
-Resgate a princesa Pauline! Antes disso, colete todas as moedas disponíveis no local
+Resgate a princesa Pauline. Antes disso, colete todas as moedas disponíveis no local.
 
 ### Controles
 - **⬆️ Cima**: Subir escadas
@@ -53,15 +78,16 @@ Resgate a princesa Pauline! Antes disso, colete todas as moedas disponíveis no 
 - **⬅️ Esquerda**: Mover-se para a esquerda
 - **➡️ Direita**: Mover-se para a direita
 - **⏺ Espaço**: Pular
+- **Tecla X**: Atacar com martelo
 
-### Martelo
-- Ao pegar o martelo, você tem **8 segundos** para utilizá-lo
-- **Pressione `X`** para usá-lo
+### Martelo e Escudo
+- Ao pegar o martelo, você tem 8 segundos para utilizá-lo
+- Pressione **Tecla X** para usar o martelo
 - Usar o martelo redireciona o barril para outra posição, mas ele permanece visível na tela
+- Ao pegar o escudo, você não sofrerá dano por 5 segundos 
 
 ### Dicas
-- É possível **pular sobre os barris** para evitar colisões
-- Execute o jogo somente em modo janela
-- Não utilize o modo tela cheia, pois pode ocorrer erro de escala gráfica
+- Pule sobre os barris para evitar colisões e perda de vidas
+- Execute o jogo em modo janela, na resolução inicial, para evitar problemas de escala gráfica
 
 
