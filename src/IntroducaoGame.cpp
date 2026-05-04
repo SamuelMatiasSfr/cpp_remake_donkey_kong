@@ -71,7 +71,6 @@ void IntroducaoGame::configuraTextos(){
 
 void IntroducaoGame::criaMapa(){
 	mapaCarregamento = new Mapa(sf::VideoMode(texturaFundoCarregamento.getSize().x, texturaFundoCarregamento.getSize().y), fundoCarregamento);
-	mapaCarregamento->getWindow().setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 }
 
 void IntroducaoGame::criaBotoes(){

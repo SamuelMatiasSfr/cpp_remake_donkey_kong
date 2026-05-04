@@ -228,7 +228,6 @@ void Fase2::criarVidas(){
 
 void Fase2::criarMapa(){
 	mapaJogo = new Mapa(sf::VideoMode(texturaFundoJogo.getSize().x, texturaFundoJogo.getSize().y), fundoJogo);
-	mapaJogo->getWindow().setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 }
 
 void Fase2::desenharMapa(){

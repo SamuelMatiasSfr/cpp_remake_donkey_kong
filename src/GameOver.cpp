@@ -20,7 +20,6 @@ GameOver::GameOver() {
 
 	//cria mapa de game over
 	mapaGameOver = new Mapa(tamanhoJanela, fundoGameOver);
-	mapaGameOver->getWindow().setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 
 
 	//carrega texturas dos botoes

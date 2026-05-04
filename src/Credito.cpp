@@ -66,7 +66,6 @@ void Credito::configuraMapa(){
 	sf::VideoMode tamJam(texturaFundoCreditos.getSize().x, texturaFundoCreditos.getSize().y);
 
 	mapaCreditos = new Mapa(tamJam, fundoCreditos);
-	mapaCreditos->getWindow().setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 
 }
 

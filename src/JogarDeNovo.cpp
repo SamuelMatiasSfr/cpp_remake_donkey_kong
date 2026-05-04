@@ -36,7 +36,6 @@ void JogarDeNovo::criaMapa(){
 
 	fundoPergunta.setTexture(texturaFundoPergunta);
 	mapaPergunta = new Mapa(sf::VideoMode(texturaFundoPergunta.getSize().x, texturaFundoPergunta.getSize().y), fundoPergunta);
-	mapaPergunta->getWindow().setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 
 
 }
